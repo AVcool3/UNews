@@ -1,0 +1,21 @@
+NOTE: Icon files are required for the extension to work properly.
+
+To create icons, you can:
+
+1. Use any image editor to create PNG files with the following sizes:
+   - icon16.png (16x16 pixels)
+   - icon48.png (48x48 pixels)
+   - icon128.png (128x128 pixels)
+
+2. Use online tools like:
+   - https://www.favicon-generator.org/
+   - https://realfavicongenerator.net/
+
+3. Or use this simple placeholder creation command:
+
+# Create simple colored squares as placeholders
+for size in 16 48 128; do
+  echo "Creating icon${size}.png as placeholder..."
+done
+
+For now, creating minimal placeholder icons...
